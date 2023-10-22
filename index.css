@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F8F1F1;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+h3{
+    color: #fff;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 15%;
+    margin-left: 10%;
+    
+    
+}
+
+p{
+    color: #e4d5d5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.75rem;    
+    margin-left: 10%;
+    margin-bottom: 25%;
+}
+
+.main-box{
+    display: flex;
+    border-radius: 10%
+}
+
+/* Container section */
+.st-container{
+    background-color: hwb(38 7% 15%);
+    width: 220px;
+    height: 350px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.nd-container{
+    background-color: #16697A;
+    width: 220px;
+    height: 350px;
+}
+
+.rd-container{
+    background-color: #20655F;
+    width: 220px;
+    height: 350px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.con-img{
+    width: 50px;
+    margin-top: 20%;
+    margin-left: 12%;
+    margin-bottom: 10%;
+}
+
+/* Button Section */
+.btn{
+    width: 110px;
+    height: 33px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 200px;
+    cursor: pointer;
+    background-color: #fff;
+    margin-left: 10%;
+    
+}
+.btn-ne{
+    color: #dc9314;
+}
+.btn-net{
+    color:#16697A;
+}
+.btn-rd{
+    color:#20655F;
+}
